@@ -44,4 +44,10 @@ for folder in folders:
         continue
 
     print(folder)
+    """
+    Modificar la funcion convert_parsed la cual se llama en la funcion ze2nb.
+    La linea que obtiene el notebook_name debe estar de la siguiente manera:
+
+        notebook_name = zeppelin_note['name'].split("/")[-1].replace(" ","_")
+    """
     ze2nb(file)
