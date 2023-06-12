@@ -1,0 +1,608 @@
+{
+  "paragraphs": [
+    {
+      "text": "%md\nPersistencia y particionado\n----------------------",
+      "user": "anonymous",
+      "dateUpdated": "Jul 13, 2017 12:26:24 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch2\u003ePersistencia y particionado\u003c/h2\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1490983029933_1784680792",
+      "id": "20170331-175709_320035584",
+      "dateCreated": "Mar 31, 2017 5:57:09 PM",
+      "dateStarted": "Jul 13, 2017 11:50:19 AM",
+      "dateFinished": "Jul 13, 2017 11:50:21 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\ncd ../../../dev\nls\n# ls -all zeppelin\n# cd zeppelin\n# cd notebook\n# ls",
+      "user": "anonymous",
+      "dateUpdated": "Jun 4, 2023 6:45:12 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "autofs\nblock\nbsg\nbtrfs-control\nchar\nconsole\ncore\ncpu\ncpu_dma_latency\ndisk\necryptfs\nfd\nfull\nfuse\nhpet\ninput\nkmsg\nlog\nloop-control\nloop0\nloop1\nloop2\nloop3\nloop4\nloop5\nloop6\nloop7\nmapper\nmcelog\nmem\nnet\nnetwork_latency\nnetwork_throughput\nnull\nport\nppp\npsaux\nptmx\npts\nram0\nram1\nram10\nram11\nram12\nram13\nram14\nram15\nram2\nram3\nram4\nram5\nram6\nram7\nram8\nram9\nrandom\nrfkill\nrtc\nrtc0\nsda\nsda1\nsg0\nshm\nsnapshot\nsnd\nstderr\nstdin\nstdout\ntty\ntty0\ntty1\ntty10\ntty11\ntty12\ntty13\ntty14\ntty15\ntty16\ntty17\ntty18\ntty19\ntty2\ntty20\ntty21\ntty22\ntty23\ntty24\ntty25\ntty26\ntty27\ntty28\ntty29\ntty3\ntty30\ntty31\ntty32\ntty33\ntty34\ntty35\ntty36\ntty37\ntty38\ntty39\ntty4\ntty40\ntty41\ntty42\ntty43\ntty44\ntty45\ntty46\ntty47\ntty48\ntty49\ntty5\ntty50\ntty51\ntty52\ntty53\ntty54\ntty55\ntty56\ntty57\ntty58\ntty59\ntty6\ntty60\ntty61\ntty62\ntty63\ntty7\ntty8\ntty9\nttyS0\nttyS1\nttyS10\nttyS11\nttyS12\nttyS13\nttyS14\nttyS15\nttyS16\nttyS17\nttyS18\nttyS19\nttyS2\nttyS20\nttyS21\nttyS22\nttyS23\nttyS24\nttyS25\nttyS26\nttyS27\nttyS28\nttyS29\nttyS3\nttyS30\nttyS31\nttyS4\nttyS5\nttyS6\nttyS7\nttyS8\nttyS9\nttyprintk\nuinput\nurandom\nvboxguest\nvboxuser\nvcs\nvcs1\nvcs2\nvcs3\nvcs4\nvcs5\nvcs6\nvcs7\nvcsa\nvcsa1\nvcsa2\nvcsa3\nvcsa4\nvcsa5\nvcsa6\nvcsa7\nvga_arbiter\nzero\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1685860895876_-898968434",
+      "id": "20230604-064135_1776743714",
+      "dateCreated": "Jun 4, 2023 6:41:35 AM",
+      "dateStarted": "Jun 4, 2023 6:45:12 AM",
+      "dateFinished": "Jun 4, 2023 6:45:12 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\ncd conf\nls -all\ncat *",
+      "user": "anonymous",
+      "dateUpdated": "Jun 4, 2023 6:51:13 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "total 92\ndrwxrwxr-x  2 vagrant vagrant  4096 Mar 25  2017 .\ndrwxrwxr-x 52 vagrant vagrant  4096 Jul 23  2017 ..\n-rw-rw-r--  1 vagrant vagrant  1326 Mar 25  2017 configuration.xsl\n-rw-rw-r--  1 vagrant vagrant  2634 Mar 25  2017 interpreter-list\n-rw-------  1 vagrant vagrant 30734 Jul  8  2017 interpreter.json\n-rw-rw-r--  1 vagrant vagrant  1382 Mar 25  2017 log4j.properties\n-rw-rw-r--  1 vagrant vagrant    20 Jul  8  2017 notebook-authorization.json\n-rw-rw-r--  1 vagrant vagrant  3847 Mar 25  2017 shiro.ini.template\n-rw-rw-r--  1 vagrant vagrant  5408 Mar 25  2017 zeppelin-env.cmd.template\n-rw-rw-r--  1 vagrant vagrant  6937 Mar 25  2017 zeppelin-env.sh.template\n-rwxrwxr-x  1 vagrant vagrant 13673 Mar 25  2017 zeppelin-site.xml.template\n\u003c?xml version\u003d\"1.0\"?\u003e\n\u003c!--\n  Licensed to the Apache Software Foundation (ASF) under one\n  or more contributor license agreements.  See the NOTICE file\n  distributed with this work for additional information\n  regarding copyright ownership.  The ASF licenses this file\n  to you under the Apache License, Version 2.0 (the\n  \"License\"); you may not use this file except in compliance\n  with the License.  You may obtain a copy of the License at\n\n      http://www.apache.org/licenses/LICENSE-2.0\n\n  Unless required by applicable law or agreed to in writing, software\n  distributed under the License is distributed on an \"AS IS\" BASIS,\n  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n  See the License for the specific language governing permissions and\n  limitations under the License.\n--\u003e\n\u003cxsl:stylesheet xmlns:xsl\u003d\"http://www.w3.org/1999/XSL/Transform\" version\u003d\"1.0\"\u003e\n\u003cxsl:output method\u003d\"html\"/\u003e\n\u003cxsl:template match\u003d\"configuration\"\u003e\n\u003chtml\u003e\n\u003cbody\u003e\n\u003ctable border\u003d\"1\"\u003e\n\u003ctr\u003e\n \u003ctd\u003ename\u003c/td\u003e\n \u003ctd\u003evalue\u003c/td\u003e\n \u003ctd\u003edescription\u003c/td\u003e\n\u003c/tr\u003e\n\u003cxsl:for-each select\u003d\"property\"\u003e\n\u003ctr\u003e\n  \u003ctd\u003e\u003ca name\u003d\"{name}\"\u003e\u003cxsl:value-of select\u003d\"name\"/\u003e\u003c/a\u003e\u003c/td\u003e\n  \u003ctd\u003e\u003cxsl:value-of select\u003d\"value\"/\u003e\u003c/td\u003e\n  \u003ctd\u003e\u003cxsl:value-of select\u003d\"description\"/\u003e\u003c/td\u003e\n\u003c/tr\u003e\n\u003c/xsl:for-each\u003e\n\u003c/table\u003e\n\u003c/body\u003e\n\u003c/html\u003e\n\u003c/xsl:template\u003e\n\u003c/xsl:stylesheet\u003e\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n#\n# [name]  [maven artifact]  [description]\n\nalluxio         org.apache.zeppelin:zeppelin-alluxio:0.7.0              Alluxio interpreter\nangular         org.apache.zeppelin:zeppelin-angular:0.7.0              HTML and AngularJS view rendering\nbeam            org.apache.zeppelin:zeppelin-beam:0.7.0                 Beam interpreter\nbigquery        org.apache.zeppelin:zeppelin-bigquery:0.7.0             BigQuery interpreter\ncassandra       org.apache.zeppelin:zeppelin-cassandra_2.11:0.7.0       Cassandra interpreter built with Scala 2.11\nelasticsearch   org.apache.zeppelin:zeppelin-elasticsearch:0.7.0        Elasticsearch interpreter\nfile            org.apache.zeppelin:zeppelin-file:0.7.0                 HDFS file interpreter\nflink           org.apache.zeppelin:zeppelin-flink_2.11:0.7.0           Flink interpreter built with Scala 2.11\nhbase           org.apache.zeppelin:zeppelin-hbase:0.7.0                Hbase interpreter\nignite          org.apache.zeppelin:zeppelin-ignite_2.11:0.7.0          Ignite interpreter built with Scala 2.11\njdbc            org.apache.zeppelin:zeppelin-jdbc:0.7.0                 Jdbc interpreter\nkylin           org.apache.zeppelin:zeppelin-kylin:0.7.0                Kylin interpreter\nlens            org.apache.zeppelin:zeppelin-lens:0.7.0                 Lens interpreter\nlivy            org.apache.zeppelin:zeppelin-livy:0.7.0                 Livy interpreter\nmd              org.apache.zeppelin:zeppelin-markdown:0.7.0             Markdown support\npig             org.apache.zeppelin:zeppelin-pig:0.7.0                  Pig interpreter\npython          org.apache.zeppelin:zeppelin-python:0.7.0               Python interpreter\nscio            org.apache.zeppelin:zeppelin-scio_2.11:0.7.0            Scio interpreter\nshell           org.apache.zeppelin:zeppelin-shell:0.7.0                Shell command\n{\n  \"interpreterSettings\": {\n    \"2CBJUH5Z5\": {\n      \"id\": \"2CBJUH5Z5\",\n      \"name\": \"cassandra\",\n      \"group\": \"cassandra\",\n      \"properties\": {\n        \"cassandra.query.default.consistency\": \"ONE\",\n        \"cassandra.pooling.max.connection.per.host.local\": \"8\",\n        \"cassandra.load.balancing.policy\": \"DEFAULT\",\n        \"cassandra.pooling.new.connection.threshold.local\": \"100\",\n        \"cassandra.credentials.password\": \"none\",\n        \"cassandra.native.port\": \"9042\",\n        \"cassandra.hosts\": \"localhost\",\n        \"cassandra.pooling.core.connection.per.host.local\": \"2\",\n        \"cassandra.retry.policy\": \"DEFAULT\",\n        \"cassandra.pooling.pool.timeout.millisecs\": \"5000\",\n        \"cassandra.protocol.version\": \"4\",\n        \"cassandra.pooling.new.connection.threshold.remote\": \"100\",\n        \"cassandra.pooling.core.connection.per.host.remote\": \"1\",\n        \"cassandra.pooling.max.request.per.connection.remote\": \"256\",\n        \"cassandra.cluster\": \"Test Cluster\",\n        \"cassandra.pooling.max.request.per.connection.local\": \"1024\",\n        \"cassandra.speculative.execution.policy\": \"DEFAULT\",\n        \"cassandra.compression.protocol\": \"NONE\",\n        \"cassandra.query.default.fetchSize\": \"5000\",\n        \"cassandra.pooling.idle.timeout.seconds\": \"120\",\n        \"cassandra.keyspace\": \"system\",\n        \"cassandra.socket.tcp.no_delay\": \"true\",\n        \"cassandra.max.schema.agreement.wait.second\": \"10\",\n        \"cassandra.credentials.username\": \"none\",\n        \"cassandra.socket.connection.timeout.millisecs\": \"5000\",\n        \"cassandra.query.default.serial.consistency\": \"SERIAL\",\n        \"cassandra.interpreter.parallelism\": \"10\",\n        \"cassandra.pooling.max.connection.per.host.remote\": \"2\",\n        \"cassandra.pooling.heartbeat.interval.seconds\": \"30\",\n        \"cassandra.reconnection.policy\": \"DEFAULT\",\n        \"cassandra.socket.read.timeout.millisecs\": \"12000\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"cassandra\",\n          \"class\": \"org.apache.zeppelin.cassandra.CassandraInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CEM88R8V\": {\n      \"id\": \"2CEM88R8V\",\n      \"name\": \"jdbc\",\n      \"group\": \"jdbc\",\n      \"properties\": {\n        \"default.password\": \"\",\n        \"zeppelin.jdbc.auth.type\": \"\",\n        \"common.max_count\": \"1000\",\n        \"zeppelin.jdbc.principal\": \"\",\n        \"default.precode\": \"\",\n        \"default.user\": \"gpadmin\",\n        \"default.url\": \"jdbc:postgresql://localhost:5432/\",\n        \"default.driver\": \"org.postgresql.Driver\",\n        \"zeppelin.jdbc.keytab.location\": \"\",\n        \"zeppelin.jdbc.concurrent.use\": \"true\",\n        \"zeppelin.jdbc.concurrent.max_connection\": \"10\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"sql\",\n          \"class\": \"org.apache.zeppelin.jdbc.JDBCInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sql\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CD8VB8N5\": {\n      \"id\": \"2CD8VB8N5\",\n      \"name\": \"bigquery\",\n      \"group\": \"bigquery\",\n      \"properties\": {\n        \"zeppelin.bigquery.max_no_of_rows\": \"100000\",\n        \"zeppelin.bigquery.wait_time\": \"5000\",\n        \"zeppelin.bigquery.project_id\": \" \"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"sql\",\n          \"class\": \"org.apache.zeppelin.bigquery.BigQueryInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sql\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CBRCMJB7\": {\n      \"id\": \"2CBRCMJB7\",\n      \"name\": \"hbase\",\n      \"group\": \"hbase\",\n      \"properties\": {\n        \"zeppelin.hbase.test.mode\": \"false\",\n        \"hbase.ruby.sources\": \"lib/ruby\",\n        \"hbase.home\": \"/usr/lib/hbase/\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"hbase\",\n          \"class\": \"org.apache.zeppelin.hbase.HbaseInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CD85MNWZ\": {\n      \"id\": \"2CD85MNWZ\",\n      \"name\": \"pig\",\n      \"group\": \"pig\",\n      \"properties\": {\n        \"zeppelin.pig.includeJobStats\": \"false\",\n        \"zeppelin.pig.execType\": \"mapreduce\",\n        \"zeppelin.pig.maxResult\": \"1000\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"script\",\n          \"class\": \"org.apache.zeppelin.pig.PigInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"pig\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"query\",\n          \"class\": \"org.apache.zeppelin.pig.PigQueryInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"pig\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CBSSQJJR\": {\n      \"id\": \"2CBSSQJJR\",\n      \"name\": \"alluxio\",\n      \"group\": \"alluxio\",\n      \"properties\": {\n        \"alluxio.master.port\": \"19998\",\n        \"alluxio.master.hostname\": \"localhost\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"alluxio\",\n          \"class\": \"org.apache.zeppelin.alluxio.AlluxioInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CEZ3N4ZK\": {\n      \"id\": \"2CEZ3N4ZK\",\n      \"name\": \"livy\",\n      \"group\": \"livy\",\n      \"properties\": {\n        \"zeppelin.livy.pull_status.interval.millis\": \"1000\",\n        \"livy.spark.executor.memory\": \"\",\n        \"zeppelin.livy.session.create_timeout\": \"120\",\n        \"zeppelin.livy.principal\": \"\",\n        \"zeppelin.livy.spark.sql.maxResult\": \"1000\",\n        \"zeppelin.livy.keytab\": \"\",\n        \"zeppelin.livy.concurrentSQL\": \"false\",\n        \"livy.spark.executor.cores\": \"\",\n        \"zeppelin.livy.displayAppInfo\": \"false\",\n        \"zeppelin.livy.url\": \"http://localhost:8998\",\n        \"livy.spark.dynamicAllocation.minExecutors\": \"\",\n        \"livy.spark.driver.cores\": \"\",\n        \"livy.spark.jars.packages\": \"\",\n        \"livy.spark.dynamicAllocation.enabled\": \"\",\n        \"livy.spark.executor.instances\": \"\",\n        \"livy.spark.dynamicAllocation.cachedExecutorIdleTimeout\": \"\",\n        \"livy.spark.dynamicAllocation.maxExecutors\": \"\",\n        \"livy.spark.dynamicAllocation.initialExecutors\": \"\",\n        \"livy.spark.driver.memory\": \"\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"spark\",\n          \"class\": \"org.apache.zeppelin.livy.LivySparkInterpreter\",\n          \"defaultInterpreter\": true,\n          \"editor\": {\n            \"language\": \"scala\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"sql\",\n          \"class\": \"org.apache.zeppelin.livy.LivySparkSQLInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sql\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"pyspark\",\n          \"class\": \"org.apache.zeppelin.livy.LivyPySparkInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"python\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"pyspark3\",\n          \"class\": \"org.apache.zeppelin.livy.LivyPySpark3Interpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"python\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"sparkr\",\n          \"class\": \"org.apache.zeppelin.livy.LivySparkRInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"r\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"scoped\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CCY33GTB\": {\n      \"id\": \"2CCY33GTB\",\n      \"name\": \"python\",\n      \"group\": \"python\",\n      \"properties\": {\n        \"zeppelin.python\": \"python\",\n        \"zeppelin.interpreter.output.limit\": \"102400\",\n        \"zeppelin.python.maxResult\": \"1000\",\n        \"zeppelin.interpreter.localRepo\": \"/home/vagrant/zeppelin/local-repo/2CCY33GTB\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"python\",\n          \"class\": \"org.apache.zeppelin.python.PythonInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"python\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"sql\",\n          \"class\": \"org.apache.zeppelin.python.PythonInterpreterPandasSql\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sql\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"conda\",\n          \"class\": \"org.apache.zeppelin.python.PythonCondaInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sh\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"docker\",\n          \"class\": \"org.apache.zeppelin.python.PythonDockerInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sh\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CCN184W1\": {\n      \"id\": \"2CCN184W1\",\n      \"name\": \"file\",\n      \"group\": \"file\",\n      \"properties\": {\n        \"hdfs.maxlength\": \"1000\",\n        \"hdfs.user\": \"hdfs\",\n        \"hdfs.url\": \"http://localhost:50070/webhdfs/v1/\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"hdfs\",\n          \"class\": \"org.apache.zeppelin.file.HDFSFileInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CESEPECG\": {\n      \"id\": \"2CESEPECG\",\n      \"name\": \"angular\",\n      \"group\": \"angular\",\n      \"properties\": {},\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"angular\",\n          \"class\": \"org.apache.zeppelin.angular.AngularInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"editOnDblClick\": true\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CET3TKHW\": {\n      \"id\": \"2CET3TKHW\",\n      \"name\": \"spark\",\n      \"group\": \"spark\",\n      \"properties\": {\n        \"spark.executor.memory\": \"\",\n        \"args\": \"\",\n        \"zeppelin.spark.printREPLOutput\": \"true\",\n        \"spark.cores.max\": \"\",\n        \"zeppelin.dep.additionalRemoteRepository\": \"spark-packages,http://dl.bintray.com/spark-packages/maven,false;\",\n        \"zeppelin.spark.sql.stacktrace\": \"false\",\n        \"zeppelin.spark.importImplicit\": \"true\",\n        \"zeppelin.spark.concurrentSQL\": \"false\",\n        \"zeppelin.spark.useHiveContext\": \"true\",\n        \"zeppelin.pyspark.python\": \"python\",\n        \"zeppelin.dep.localrepo\": \"local-repo\",\n        \"zeppelin.interpreter.localRepo\": \"/home/vagrant/zeppelin/local-repo/2CET3TKHW\",\n        \"zeppelin.R.knitr\": \"true\",\n        \"zeppelin.interpreter.output.limit\": \"102400\",\n        \"zeppelin.spark.maxResult\": \"1000\",\n        \"master\": \"local[*]\",\n        \"spark.app.name\": \"Zeppelin\",\n        \"zeppelin.R.image.width\": \"100%\",\n        \"zeppelin.R.render.options\": \"out.format \\u003d \\u0027html\\u0027, comment \\u003d NA, echo \\u003d FALSE, results \\u003d \\u0027asis\\u0027, message \\u003d F, warning \\u003d F\",\n        \"zeppelin.R.cmd\": \"R\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"spark\",\n          \"class\": \"org.apache.zeppelin.spark.SparkInterpreter\",\n          \"defaultInterpreter\": true,\n          \"editor\": {\n            \"language\": \"scala\"\n          }\n        },\n        {\n          \"name\": \"sql\",\n          \"class\": \"org.apache.zeppelin.spark.SparkSqlInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sql\"\n          }\n        },\n        {\n          \"name\": \"dep\",\n          \"class\": \"org.apache.zeppelin.spark.DepInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"scala\"\n          }\n        },\n        {\n          \"name\": \"pyspark\",\n          \"class\": \"org.apache.zeppelin.spark.PySparkInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"python\"\n          }\n        },\n        {\n          \"name\": \"r\",\n          \"class\": \"org.apache.zeppelin.spark.SparkRInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"r\"\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CCTDCCB9\": {\n      \"id\": \"2CCTDCCB9\",\n      \"name\": \"flink\",\n      \"group\": \"flink\",\n      \"properties\": {\n        \"port\": \"6123\",\n        \"host\": \"local\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"flink\",\n          \"class\": \"org.apache.zeppelin.flink.FlinkInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"scala\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CDTHYD1N\": {\n      \"id\": \"2CDTHYD1N\",\n      \"name\": \"lens\",\n      \"group\": \"lens\",\n      \"properties\": {\n        \"lens.session.cluster.user\": \"default\",\n        \"zeppelin.lens.maxResults\": \"1000\",\n        \"lens.query.enable.persistent.resultset\": \"false\",\n        \"lens.client.dbname\": \"default\",\n        \"zeppelin.lens.maxThreads\": \"10\",\n        \"lens.server.base.url\": \"http://\\u003chostname\\u003e:\\u003cport\\u003e/lensapi\",\n        \"zeppelin.lens.run.concurrent\": \"true\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"lens\",\n          \"class\": \"org.apache.zeppelin.lens.LensInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"text\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CCZDD8PX\": {\n      \"id\": \"2CCZDD8PX\",\n      \"name\": \"kylin\",\n      \"group\": \"kylin\",\n      \"properties\": {\n        \"kylin.query.limit\": \"5000\",\n        \"kylin.api.password\": \"KYLIN\",\n        \"kylin.api.user\": \"ADMIN\",\n        \"kylin.query.offset\": \"0\",\n        \"kylin.query.project\": \"learn_kylin\",\n        \"kylin.query.ispartial\": \"true\",\n        \"kylin.api.url\": \"http://localhost:7070/kylin/api/query\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"kylin\",\n          \"class\": \"org.apache.zeppelin.kylin.KylinInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sql\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CF1VUR2D\": {\n      \"id\": \"2CF1VUR2D\",\n      \"name\": \"md\",\n      \"group\": \"md\",\n      \"properties\": {\n        \"zeppelin.interpreter.output.limit\": \"102400\",\n        \"zeppelin.interpreter.localRepo\": \"/home/vagrant/zeppelin/local-repo/2CF1VUR2D\",\n        \"markdown.parser.type\": \"pegdown\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"md\",\n          \"class\": \"org.apache.zeppelin.markdown.Markdown\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"markdown\",\n            \"editOnDblClick\": true\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CCQCYKJM\": {\n      \"id\": \"2CCQCYKJM\",\n      \"name\": \"sh\",\n      \"group\": \"sh\",\n      \"properties\": {\n        \"zeppelin.shell.keytab.location\": \"\",\n        \"shell.command.timeout.millisecs\": \"60000\",\n        \"zeppelin.shell.principal\": \"\",\n        \"zeppelin.shell.auth.type\": \"\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"sh\",\n          \"class\": \"org.apache.zeppelin.shell.ShellInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"sh\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CCZGPF6E\": {\n      \"id\": \"2CCZGPF6E\",\n      \"name\": \"ignite\",\n      \"group\": \"ignite\",\n      \"properties\": {\n        \"ignite.peerClassLoadingEnabled\": \"true\",\n        \"ignite.config.url\": \"\",\n        \"ignite.jdbc.url\": \"jdbc:ignite:cfg://default-ignite-jdbc.xml\",\n        \"ignite.clientMode\": \"true\",\n        \"ignite.addresses\": \"127.0.0.1:47500..47509\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"ignite\",\n          \"class\": \"org.apache.zeppelin.ignite.IgniteInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"text\",\n            \"editOnDblClick\": false\n          }\n        },\n        {\n          \"name\": \"ignitesql\",\n          \"class\": \"org.apache.zeppelin.ignite.IgniteSqlInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"language\": \"text\",\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    },\n    \"2CBG9JDC9\": {\n      \"id\": \"2CBG9JDC9\",\n      \"name\": \"elasticsearch\",\n      \"group\": \"elasticsearch\",\n      \"properties\": {\n        \"elasticsearch.basicauth.password\": \"\",\n        \"elasticsearch.result.size\": \"10\",\n        \"elasticsearch.port\": \"9300\",\n        \"elasticsearch.cluster.name\": \"elasticsearch\",\n        \"elasticsearch.host\": \"localhost\",\n        \"elasticsearch.basicauth.username\": \"\",\n        \"elasticsearch.client.type\": \"transport\"\n      },\n      \"status\": \"READY\",\n      \"interpreterGroup\": [\n        {\n          \"name\": \"elasticsearch\",\n          \"class\": \"org.apache.zeppelin.elasticsearch.ElasticsearchInterpreter\",\n          \"defaultInterpreter\": false,\n          \"editor\": {\n            \"editOnDblClick\": false\n          }\n        }\n      ],\n      \"dependencies\": [],\n      \"option\": {\n        \"remote\": true,\n        \"port\": -1,\n        \"perNote\": \"shared\",\n        \"perUser\": \"shared\",\n        \"isExistingProcess\": false,\n        \"setPermission\": false,\n        \"users\": [],\n        \"isUserImpersonate\": false\n      }\n    }\n  },\n  \"interpreterBindings\": {\n    \"2CEBFZ6W5\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CBX5N42D\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CDUF4XFK\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CE6HNMB7\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CFHDDRRB\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CBMKFFDF\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2A94M5J1Z\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CDGYJ7GQ\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CEEYZDYV\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CCMSADKM\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CC4BSZH7\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CCBXH92U\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2C2AUG798\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CF1PS3W4\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CNB7X8GR\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2BWJFTXKJ\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CDWBAG4F\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ],\n    \"2CF1T7FXW\": [\n      \"2CET3TKHW\",\n      \"2CF1VUR2D\",\n      \"2CESEPECG\",\n      \"2CCQCYKJM\",\n      \"2CEZ3N4ZK\",\n      \"2CBSSQJJR\",\n      \"2CCN184W1\",\n      \"2CCTDCCB9\",\n      \"2CCY33GTB\",\n      \"2CCZGPF6E\",\n      \"2CDTHYD1N\",\n      \"2CBJUH5Z5\",\n      \"2CCZDD8PX\",\n      \"2CBG9JDC9\",\n      \"2CEM88R8V\",\n      \"2CBRCMJB7\",\n      \"2CD8VB8N5\",\n      \"2CD85MNWZ\"\n    ]\n  },\n  \"interpreterRepositories\": [\n    {\n      \"id\": \"central\",\n      \"type\": \"default\",\n      \"url\": \"http://repo1.maven.org/maven2/\",\n      \"releasePolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"snapshotPolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"mirroredRepositories\": [],\n      \"repositoryManager\": false\n    },\n    {\n      \"id\": \"local\",\n      \"type\": \"default\",\n      \"url\": \"file:///root/.m2/repository\",\n      \"releasePolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"snapshotPolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"mirroredRepositories\": [],\n      \"repositoryManager\": false\n    },\n    {\n      \"id\": \"local\",\n      \"type\": \"default\",\n      \"url\": \"file:///home/vagrant/.m2/repository\",\n      \"releasePolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"snapshotPolicy\": {\n        \"enabled\": true,\n        \"updatePolicy\": \"daily\",\n        \"checksumPolicy\": \"warn\"\n      },\n      \"mirroredRepositories\": [],\n      \"repositoryManager\": false\n    }\n  ]\n}#\n# Licensed to the Apache Software Foundation (ASF) under one or more\n# contributor license agreements.  See the NOTICE file distributed with\n# this work for additional information regarding copyright ownership.\n# The ASF licenses this file to You under the Apache License, Version 2.0\n# (the \"License\"); you may not use this file except in compliance with\n# the License.  You may obtain a copy of the License at\n#\n#    http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\nlog4j.rootLogger \u003d INFO, dailyfile\n\nlog4j.appender.stdout \u003d org.apache.log4j.ConsoleAppender\nlog4j.appender.stdout.layout \u003d org.apache.log4j.PatternLayout\nlog4j.appender.stdout.layout.ConversionPattern\u003d%5p [%d] ({%t} %F[%M]:%L) - %m%n\n\nlog4j.appender.dailyfile.DatePattern\u003d.yyyy-MM-dd\nlog4j.appender.dailyfile.Threshold \u003d INFO\nlog4j.appender.dailyfile \u003d org.apache.log4j.DailyRollingFileAppender\nlog4j.appender.dailyfile.File \u003d ${zeppelin.log.file}\nlog4j.appender.dailyfile.layout \u003d org.apache.log4j.PatternLayout\nlog4j.appender.dailyfile.layout.ConversionPattern\u003d%5p [%d] ({%t} %F[%M]:%L) - %m%n\n{\n  \"authInfo\": {}\n}#\n# Licensed to the Apache Software Foundation (ASF) under one or more\n# contributor license agreements.  See the NOTICE file distributed with\n# this work for additional information regarding copyright ownership.\n# The ASF licenses this file to You under the Apache License, Version 2.0\n# (the \"License\"); you may not use this file except in compliance with\n# the License.  You may obtain a copy of the License at\n#\n#    http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n[users]\n# List of users with their password allowed to access Zeppelin.\n# To use a different strategy (LDAP / Database / ...) check the shiro doc at http://shiro.apache.org/configuration.html#Configuration-INISections\nadmin \u003d password1, admin\nuser1 \u003d password2, role1, role2\nuser2 \u003d password3, role3\nuser3 \u003d password4, role2\n\n# Sample LDAP configuration, for user Authentication, currently tested for single Realm\n[main]\n### A sample for configuring Active Directory Realm\n#activeDirectoryRealm \u003d org.apache.zeppelin.realm.ActiveDirectoryGroupRealm\n#activeDirectoryRealm.systemUsername \u003d userNameA\n\n#use either systemPassword or hadoopSecurityCredentialPath, more details in http://zeppelin.apache.org/docs/latest/security/shiroauthentication.html\n#activeDirectoryRealm.systemPassword \u003d passwordA\n#activeDirectoryRealm.hadoopSecurityCredentialPath \u003d jceks://file/user/zeppelin/zeppelin.jceks\n#activeDirectoryRealm.searchBase \u003d CN\u003dUsers,DC\u003dSOME_GROUP,DC\u003dCOMPANY,DC\u003dCOM\n#activeDirectoryRealm.url \u003d ldap://ldap.test.com:389\n#activeDirectoryRealm.groupRolesMap \u003d \"CN\u003dadmin,OU\u003dgroups,DC\u003dSOME_GROUP,DC\u003dCOMPANY,DC\u003dCOM\":\"admin\",\"CN\u003dfinance,OU\u003dgroups,DC\u003dSOME_GROUP,DC\u003dCOMPANY,DC\u003dCOM\":\"finance\",\"CN\u003dhr,OU\u003dgroups,DC\u003dSOME_GROUP,DC\u003dCOMPANY,DC\u003dCOM\":\"hr\"\n#activeDirectoryRealm.authorizationCachingEnabled \u003d false\n\n### A sample for configuring LDAP Directory Realm\n#ldapRealm \u003d org.apache.zeppelin.realm.LdapGroupRealm\n## search base for ldap groups (only relevant for LdapGroupRealm):\n#ldapRealm.contextFactory.environment[ldap.searchBase] \u003d dc\u003dCOMPANY,dc\u003dCOM\n#ldapRealm.contextFactory.url \u003d ldap://ldap.test.com:389\n#ldapRealm.userDnTemplate \u003d uid\u003d{0},ou\u003dUsers,dc\u003dCOMPANY,dc\u003dCOM\n#ldapRealm.contextFactory.authenticationMechanism \u003d SIMPLE\n\n### A sample PAM configuration\n#pamRealm\u003dorg.apache.zeppelin.realm.PamRealm\n#pamRealm.service\u003dsshd\n\n### A sample for configuring ZeppelinHub Realm\n#zeppelinHubRealm \u003d org.apache.zeppelin.realm.ZeppelinHubRealm\n## Url of ZeppelinHub\n#zeppelinHubRealm.zeppelinhubUrl \u003d https://www.zeppelinhub.com\n#securityManager.realms \u003d $zeppelinHubRealm\n\nsessionManager \u003d org.apache.shiro.web.session.mgt.DefaultWebSessionManager\n\n### If caching of user is required then uncomment below lines\n#cacheManager \u003d org.apache.shiro.cache.MemoryConstrainedCacheManager\n#securityManager.cacheManager \u003d $cacheManager\n\nsecurityManager.sessionManager \u003d $sessionManager\n# 86,400,000 milliseconds \u003d 24 hour\nsecurityManager.sessionManager.globalSessionTimeout \u003d 86400000\nshiro.loginUrl \u003d /api/login\n\n[roles]\nrole1 \u003d *\nrole2 \u003d *\nrole3 \u003d *\nadmin \u003d *\n\n[urls]\n# This section is used for url-based security.\n# You can secure interpreter, configuration and credential information by urls. Comment or uncomment the below urls that you want to hide.\n# anon means the access is anonymous.\n# authc means Form based Auth Security\n# To enfore security, comment the line below and uncomment the next one\n/api/version \u003d anon\n#/api/interpreter/** \u003d authc, roles[admin]\n#/api/configurations/** \u003d authc, roles[admin]\n#/api/credential/** \u003d authc, roles[admin]\n#/** \u003d anon\n/** \u003d authc\n@echo off\n\nREM Licensed to the Apache Software Foundation (ASF) under one or more\nREM contributor license agreements.  See the NOTICE file distributed with\nREM this work for additional information regarding copyright ownership.\nREM The ASF licenses this file to You under the Apache License, Version 2.0\nREM (the \"License\"); you may not use this file except in compliance with\nREM the License.  You may obtain a copy of the License at\nREM\nREM    http://www.apache.org/licenses/LICENSE-2.0\nREM\nREM Unless required by applicable law or agreed to in writing, software\nREM distributed under the License is distributed on an \"AS IS\" BASIS,\nREM WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nREM See the License for the specific language governing permissions and\nREM limitations under the License.\nREM\n\nREM set JAVA_HOME\u003d\nREM set MASTER\u003d                 \t\tREM Spark master url. eg. spark://master_addr:7077. Leave empty if you want to use local mode.\nREM set ZEPPELIN_JAVA_OPTS      \t\tREM Additional jvm options. for example, set ZEPPELIN_JAVA_OPTS\u003d\"-Dspark.executor.memory\u003d8g -Dspark.cores.max\u003d16\"\nREM set ZEPPELIN_MEM            \t\tREM Zeppelin jvm mem options Default -Xms1024m -Xmx1024m -XX:MaxPermSize\u003d512m\nREM set ZEPPELIN_INTP_MEM       \t\tREM zeppelin interpreter process jvm mem options. Default -Xmx1024m -Xms1024m -XX:MaxPermSize\u003d512m\nREM set ZEPPELIN_INTP_JAVA_OPTS \t\tREM zeppelin interpreter process jvm options.\n\nREM set ZEPPELIN_LOG_DIR        \t\tREM Where log files are stored.  PWD by default.\nREM set ZEPPELIN_PID_DIR        \t\tREM The pid files are stored. /tmp by default.\nREM set ZEPPELIN_WAR_TEMPDIR    \t\tREM The location of jetty temporary directory.\nREM set ZEPPELIN_NOTEBOOK_DIR   \t\tREM Where notebook saved\nREM set ZEPPELIN_NOTEBOOK_HOMESCREEN\t\tREM Id of notebook to be displayed in homescreen. ex) 2A94M5J1Z\nREM set ZEPPELIN_NOTEBOOK_HOMESCREEN_HIDE\tREM hide homescreen notebook from list when this value set to \"true\". default \"false\"\nREM set ZEPPELIN_NOTEBOOK_S3_BUCKET            REM Bucket where notebook saved\nREM set ZEPPELIN_NOTEBOOK_S3_USER              REM User in bucket where notebook saved. For example bucket/user/notebook/2A94M5J1Z/note.json\nREM set ZEPPELIN_NOTEBOOK_S3_ENDPOINT          REM Endpoint of the bucket\nREM set ZEPPELIN_NOTEBOOK_S3_KMS_KEY_ID        REM AWS KMS key ID\nREM set ZEPPELIN_NOTEBOOK_S3_KMS_KEY_REGION    REM AWS KMS key region\nREM set ZEPPELIN_NOTEBOOK_S3_SSE               REM Server-side encryption enabled for notebooks\nREM set ZEPPELIN_IDENT_STRING   \t\tREM A string representing this instance of zeppelin. $USER by default.\nREM set ZEPPELIN_NICENESS       \t\tREM The scheduling priority for daemons. Defaults to 0.\nREM set ZEPPELIN_INTERPRETER_LOCALREPO         REM Local repository for interpreter\u0027s additional dependency loading\nREM set ZEPPELIN_INTERPRETER_DEP_MVNREPO       REM Maven principal repository for interpreter\u0027s additional dependency loading\nREM set ZEPPELIN_HELIUM_NPM_REGISTRY           REM Remote Npm registry for Helium dependency loader\nREM set ZEPPELIN_NOTEBOOK_STORAGE\t\tREM Refers to pluggable notebook storage class, can have two classes simultaneously with a sync between them (e.g. local and remote).\nREM set ZEPPELIN_NOTEBOOK_ONE_WAY_SYNC\t\tREM If there are multiple notebook storages, should we treat the first one as the only source of truth?\n\n\nREM Spark interpreter configuration\n\nREM Use provided spark installation\nREM defining SPARK_HOME makes Zeppelin run spark interpreter process using spark-submit\nREM\nREM set SPARK_HOME                             REM (required) When it is defined, load it instead of Zeppelin embedded Spark libraries\nREM set SPARK_SUBMIT_OPTIONS                   REM (optional) extra options to pass to spark submit. eg) \"--driver-memory 512M --executor-memory 1G\".\nREM set SPARK_APP_NAME                         REM (optional) The name of spark application.\n\nREM Use embedded spark binaries\nREM without SPARK_HOME defined, Zeppelin still able to run spark interpreter process using embedded spark binaries.\nREM however, it is not encouraged when you can define SPARK_HOME\nREM\nREM Options read in YARN client mode\nREM set HADOOP_CONF_DIR         \t\tREM yarn-site.xml is located in configuration directory in HADOOP_CONF_DIR.\nREM Pyspark (supported with Spark 1.2.1 and above)\nREM To configure pyspark, you need to set spark distribution\u0027s path to \u0027spark.home\u0027 property in Interpreter setting screen in Zeppelin GUI\nREM set PYSPARK_PYTHON          \t\tREM path to the python command. must be the same path on the driver(Zeppelin) and all workers.\nREM set PYTHONPATH\n\nREM Spark interpreter options\nREM\nREM set ZEPPELIN_SPARK_USEHIVECONTEXT  REM Use HiveContext instead of SQLContext if set true. true by default.\nREM set ZEPPELIN_SPARK_CONCURRENTSQL   REM Execute multiple SQL concurrently if set true. false by default.\nREM set ZEPPELIN_SPARK_IMPORTIMPLICIT  REM Import implicits, UDF collection, and sql if set true. true by default.\nREM set ZEPPELIN_SPARK_MAXRESULT       REM Max number of Spark SQL result to display. 1000 by default.\n\nREM ZeppelinHub connection configuration\nREM\nREM set ZEPPELINHUB_API_ADDRESS\t       REM Refers to the address of the ZeppelinHub service in use\nREM set ZEPPELINHUB_API_TOKEN          REM Refers to the Zeppelin instance token of the user\nREM set ZEPPELINHUB_USER_KEY           REM Optional, when using Zeppelin with authentication.\n#!/bin/bash\n#\n# Licensed to the Apache Software Foundation (ASF) under one or more\n# contributor license agreements.  See the NOTICE file distributed with\n# this work for additional information regarding copyright ownership.\n# The ASF licenses this file to You under the Apache License, Version 2.0\n# (the \"License\"); you may not use this file except in compliance with\n# the License.  You may obtain a copy of the License at\n#\n#    http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n# export JAVA_HOME\u003d\n# export MASTER\u003d                 \t\t# Spark master url. eg. spark://master_addr:7077. Leave empty if you want to use local mode.\n# export ZEPPELIN_JAVA_OPTS      \t\t# Additional jvm options. for example, export ZEPPELIN_JAVA_OPTS\u003d\"-Dspark.executor.memory\u003d8g -Dspark.cores.max\u003d16\"\n# export ZEPPELIN_MEM            \t\t# Zeppelin jvm mem options Default -Xms1024m -Xmx1024m -XX:MaxPermSize\u003d512m\n# export ZEPPELIN_INTP_MEM       \t\t# zeppelin interpreter process jvm mem options. Default -Xms1024m -Xmx1024m -XX:MaxPermSize\u003d512m\n# export ZEPPELIN_INTP_JAVA_OPTS \t\t# zeppelin interpreter process jvm options.\n# export ZEPPELIN_SSL_PORT       \t\t# ssl port (used when ssl environment variable is set to true)\n\n# export ZEPPELIN_LOG_DIR        \t\t# Where log files are stored.  PWD by default.\n# export ZEPPELIN_PID_DIR        \t\t# The pid files are stored. ${ZEPPELIN_HOME}/run by default.\n# export ZEPPELIN_WAR_TEMPDIR    \t\t# The location of jetty temporary directory.\n# export ZEPPELIN_NOTEBOOK_DIR   \t\t# Where notebook saved\n# export ZEPPELIN_NOTEBOOK_HOMESCREEN\t\t# Id of notebook to be displayed in homescreen. ex) 2A94M5J1Z\n# export ZEPPELIN_NOTEBOOK_HOMESCREEN_HIDE\t# hide homescreen notebook from list when this value set to \"true\". default \"false\"\n# export ZEPPELIN_NOTEBOOK_S3_BUCKET        # Bucket where notebook saved\n# export ZEPPELIN_NOTEBOOK_S3_ENDPOINT      # Endpoint of the bucket\n# export ZEPPELIN_NOTEBOOK_S3_USER          # User in bucket where notebook saved. For example bucket/user/notebook/2A94M5J1Z/note.json\n# export ZEPPELIN_NOTEBOOK_S3_KMS_KEY_ID    # AWS KMS key ID\n# export ZEPPELIN_NOTEBOOK_S3_KMS_KEY_REGION      # AWS KMS key region\n# export ZEPPELIN_NOTEBOOK_S3_SSE      # Server-side encryption enabled for notebooks\n# export ZEPPELIN_NOTEBOOK_MONGO_URI\t\t\t\t# MongoDB connection URI used to connect to a MongoDB database server. Default \"mongodb://localhost\"\n# export ZEPPELIN_NOTEBOOK_MONGO_DATABASE\t\t# Database name to store notebook. Default \"zeppelin\"\n# export ZEPPELIN_NOTEBOOK_MONGO_COLLECTION # Collection name to store notebook. Default \"notes\"\n# export ZEPPELIN_NOTEBOOK_MONGO_AUTOIMPORT\t# If \"true\" import local notes under ZEPPELIN_NOTEBOOK_DIR on startup. Default \"false\"\n# export ZEPPELIN_IDENT_STRING   \t\t# A string representing this instance of zeppelin. $USER by default.\n# export ZEPPELIN_NICENESS       \t\t# The scheduling priority for daemons. Defaults to 0.\n# export ZEPPELIN_INTERPRETER_LOCALREPO         # Local repository for interpreter\u0027s additional dependency loading\n# export ZEPPELIN_INTERPRETER_DEP_MVNREPO       # Remote principal repository for interpreter\u0027s additional dependency loading\n# export ZEPPELIN_HELIUM_NPM_REGISTRY           # Remote Npm registry for Helium dependency loader\n# export ZEPPELIN_NOTEBOOK_STORAGE \t\t# Refers to pluggable notebook storage class, can have two classes simultaneously with a sync between them (e.g. local and remote).\n# export ZEPPELIN_NOTEBOOK_ONE_WAY_SYNC\t# If there are multiple notebook storages, should we treat the first one as the only source of truth?\n# export ZEPPELIN_NOTEBOOK_PUBLIC   # Make notebook public by default when created, private otherwise\n\n#### Spark interpreter configuration ####\n\n## Use provided spark installation ##\n## defining SPARK_HOME makes Zeppelin run spark interpreter process using spark-submit\n##\n# export SPARK_HOME                             # (required) When it is defined, load it instead of Zeppelin embedded Spark libraries\n# export SPARK_SUBMIT_OPTIONS                   # (optional) extra options to pass to spark submit. eg) \"--driver-memory 512M --executor-memory 1G\".\n# export SPARK_APP_NAME                         # (optional) The name of spark application.\n\n## Use embedded spark binaries ##\n## without SPARK_HOME defined, Zeppelin still able to run spark interpreter process using embedded spark binaries.\n## however, it is not encouraged when you can define SPARK_HOME\n##\n# Options read in YARN client mode\n# export HADOOP_CONF_DIR         \t\t# yarn-site.xml is located in configuration directory in HADOOP_CONF_DIR.\n# Pyspark (supported with Spark 1.2.1 and above)\n# To configure pyspark, you need to set spark distribution\u0027s path to \u0027spark.home\u0027 property in Interpreter setting screen in Zeppelin GUI\n# export PYSPARK_PYTHON          \t\t# path to the python command. must be the same path on the driver(Zeppelin) and all workers.\n# export PYTHONPATH\n\n## Spark interpreter options ##\n##\n# export ZEPPELIN_SPARK_USEHIVECONTEXT  # Use HiveContext instead of SQLContext if set true. true by default.\n# export ZEPPELIN_SPARK_CONCURRENTSQL   # Execute multiple SQL concurrently if set true. false by default.\n# export ZEPPELIN_SPARK_IMPORTIMPLICIT  # Import implicits, UDF collection, and sql if set true. true by default.\n# export ZEPPELIN_SPARK_MAXRESULT       # Max number of Spark SQL result to display. 1000 by default.\n# export ZEPPELIN_WEBSOCKET_MAX_TEXT_MESSAGE_SIZE       # Size in characters of the maximum text message to be received by websocket. Defaults to 1024000\n\n\n#### HBase interpreter configuration ####\n\n## To connect to HBase running on a cluster, either HBASE_HOME or HBASE_CONF_DIR must be set\n\n# export HBASE_HOME\u003d                    # (require) Under which HBase scripts and configuration should be\n# export HBASE_CONF_DIR\u003d                # (optional) Alternatively, configuration directory can be set to point to the directory that has hbase-site.xml\n\n#### ZeppelinHub connection configuration ####\n# export ZEPPELINHUB_API_ADDRESS\t\t# Refers to the address of the ZeppelinHub service in use\n# export ZEPPELINHUB_API_TOKEN\t\t\t# Refers to the Zeppelin instance token of the user\n# export ZEPPELINHUB_USER_KEY\t\t\t# Optional, when using Zeppelin with authentication.\n\n#### Zeppelin impersonation configuration\n# export ZEPPELIN_IMPERSONATE_CMD       # Optional, when user want to run interpreter as end web user. eg) \u0027sudo -H -u ${ZEPPELIN_IMPERSONATE_USER} bash -c \u0027\n# export ZEPPELIN_IMPERSONATE_SPARK_PROXY_USER  #Optional, by default is true; can be set to false if you don\u0027t want to use --proxy-user option with Spark interpreter when impersonation enabled\n\u003c?xml version\u003d\"1.0\"?\u003e\n\u003c?xml-stylesheet type\u003d\"text/xsl\" href\u003d\"configuration.xsl\"?\u003e\n\u003c!--\n   Licensed to the Apache Software Foundation (ASF) under one or more\n   contributor license agreements.  See the NOTICE file distributed with\n   this work for additional information regarding copyright ownership.\n   The ASF licenses this file to You under the Apache License, Version 2.0\n   (the \"License\"); you may not use this file except in compliance with\n   the License.  You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n--\u003e\n\n\u003cconfiguration\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.server.addr\u003c/name\u003e\n  \u003cvalue\u003e0.0.0.0\u003c/value\u003e\n  \u003cdescription\u003eServer address\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.server.port\u003c/name\u003e\n  \u003cvalue\u003e8080\u003c/value\u003e\n  \u003cdescription\u003eServer port.\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.server.ssl.port\u003c/name\u003e\n  \u003cvalue\u003e8443\u003c/value\u003e\n  \u003cdescription\u003eServer ssl port. (used when ssl property is set to true)\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.server.context.path\u003c/name\u003e\n  \u003cvalue\u003e/\u003c/value\u003e\n  \u003cdescription\u003eContext Path of the Web Application\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.war.tempdir\u003c/name\u003e\n  \u003cvalue\u003ewebapps\u003c/value\u003e\n  \u003cdescription\u003eLocation of jetty temporary directory\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.dir\u003c/name\u003e\n  \u003cvalue\u003enotebook\u003c/value\u003e\n  \u003cdescription\u003epath or URI for notebook persist\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.homescreen\u003c/name\u003e\n  \u003cvalue\u003e\u003c/value\u003e\n  \u003cdescription\u003eid of notebook to be displayed in homescreen. ex) 2A94M5J1Z Empty value displays default home screen\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.homescreen.hide\u003c/name\u003e\n  \u003cvalue\u003efalse\u003c/value\u003e\n  \u003cdescription\u003ehide homescreen notebook from list when this value set to true\u003c/description\u003e\n\u003c/property\u003e\n\n\n\u003c!-- Amazon S3 notebook storage --\u003e\n\u003c!-- Creates the following directory structure: s3://{bucket}/{username}/{notebook-id}/note.json --\u003e\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.s3.user\u003c/name\u003e\n  \u003cvalue\u003euser\u003c/value\u003e\n  \u003cdescription\u003euser name for s3 folder structure\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.s3.bucket\u003c/name\u003e\n  \u003cvalue\u003ezeppelin\u003c/value\u003e\n  \u003cdescription\u003ebucket name for notebook storage\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.s3.endpoint\u003c/name\u003e\n  \u003cvalue\u003es3.amazonaws.com\u003c/value\u003e\n  \u003cdescription\u003eendpoint for s3 bucket\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.storage\u003c/name\u003e\n  \u003cvalue\u003eorg.apache.zeppelin.notebook.repo.S3NotebookRepo\u003c/value\u003e\n  \u003cdescription\u003enotebook persistence layer implementation\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003c!-- Additionally, encryption is supported for notebook data stored in S3 --\u003e\n\u003c!-- Use the AWS KMS to encrypt data --\u003e\n\u003c!-- If used, the EC2 role assigned to the EMR cluster must have rights to use the given key --\u003e\n\u003c!-- See https://aws.amazon.com/kms/ and http://docs.aws.amazon.com/kms/latest/developerguide/concepts.html --\u003e\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.s3.kmsKeyID\u003c/name\u003e\n  \u003cvalue\u003eAWS-KMS-Key-UUID\u003c/value\u003e\n  \u003cdescription\u003eAWS KMS key ID used to encrypt notebook data in S3\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003c!-- provide region of your KMS key --\u003e\n\u003c!-- See http://docs.aws.amazon.com/general/latest/gr/rande.html#kms_region for region codes names --\u003e\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.s3.kmsKeyRegion\u003c/name\u003e\n  \u003cvalue\u003eus-east-1\u003c/value\u003e\n  \u003cdescription\u003eAWS KMS key region in your AWS account\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003c!-- Use a custom encryption materials provider to encrypt data --\u003e\n\u003c!-- No configuration is given to the provider, so you must use system properties or another means to configure --\u003e\n\u003c!-- See https://docs.aws.amazon.com/AWSJavaSDK/latest/javadoc/com/amazonaws/services/s3/model/EncryptionMaterialsProvider.html --\u003e\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.s3.encryptionMaterialsProvider\u003c/name\u003e\n  \u003cvalue\u003eprovider implementation class name\u003c/value\u003e\n  \u003cdescription\u003eCustom encryption materials provider used to encrypt notebook data in S3\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003c!-- Server-side encryption enabled for notebooks --\u003e\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.s3.sse\u003c/name\u003e\n  \u003cvalue\u003etrue\u003c/value\u003e\n  \u003cdescription\u003eServer-side encryption enabled for notebooks\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003c!-- If using Azure for storage use the following settings --\u003e\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.azure.connectionString\u003c/name\u003e\n  \u003cvalue\u003eDefaultEndpointsProtocol\u003dhttps;AccountName\u003d\u003caccountName\u003e;AccountKey\u003d\u003caccountKey\u003e\u003c/value\u003e\n  \u003cdescription\u003eAzure account credentials\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.azure.share\u003c/name\u003e\n  \u003cvalue\u003ezeppelin\u003c/value\u003e\n  \u003cdescription\u003eshare name for notebook storage\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.azure.user\u003c/name\u003e\n  \u003cvalue\u003euser\u003c/value\u003e\n  \u003cdescription\u003eoptional user name for Azure folder structure\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.storage\u003c/name\u003e\n  \u003cvalue\u003eorg.apache.zeppelin.notebook.repo.AzureNotebookRepo\u003c/value\u003e\n  \u003cdescription\u003enotebook persistence layer implementation\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003c!-- Notebook storage layer using local file system\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.storage\u003c/name\u003e\n  \u003cvalue\u003eorg.apache.zeppelin.notebook.repo.VFSNotebookRepo\u003c/value\u003e\n  \u003cdescription\u003elocal notebook persistence layer implementation\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003c!-- For connecting your Zeppelin with ZeppelinHub --\u003e\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.storage\u003c/name\u003e\n  \u003cvalue\u003eorg.apache.zeppelin.notebook.repo.GitNotebookRepo, org.apache.zeppelin.notebook.repo.zeppelinhub.ZeppelinHubRepo\u003c/value\u003e\n  \u003cdescription\u003etwo notebook persistence layers (versioned local + ZeppelinHub)\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003c!-- MongoDB notebook storage --\u003e\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.storage\u003c/name\u003e\n  \u003cvalue\u003eorg.apache.zeppelin.notebook.repo.MongoNotebookRepo\u003c/value\u003e\n  \u003cdescription\u003enotebook persistence layer implementation\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.mongo.uri\u003c/name\u003e\n  \u003cvalue\u003emongodb://localhost\u003c/value\u003e\n  \u003cdescription\u003eMongoDB connection URI used to connect to a MongoDB database server\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.mongo.database\u003c/name\u003e\n  \u003cvalue\u003ezeppelin\u003c/value\u003e\n  \u003cdescription\u003edatabase name for notebook storage\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.mongo.collection\u003c/name\u003e\n  \u003cvalue\u003enotes\u003c/value\u003e\n  \u003cdescription\u003ecollection name for notebook storage\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.mongo.autoimport\u003c/name\u003e\n  \u003cvalue\u003efalse\u003c/value\u003e\n  \u003cdescription\u003eimport local notes into MongoDB automatically on startup\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.storage\u003c/name\u003e\n  \u003cvalue\u003eorg.apache.zeppelin.notebook.repo.GitNotebookRepo\u003c/value\u003e\n  \u003cdescription\u003eversioned notebook persistence layer implementation\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.one.way.sync\u003c/name\u003e\n  \u003cvalue\u003efalse\u003c/value\u003e\n  \u003cdescription\u003eIf there are multiple notebook storages, should we treat the first one as the only source of truth?\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.interpreter.dir\u003c/name\u003e\n  \u003cvalue\u003einterpreter\u003c/value\u003e\n  \u003cdescription\u003eInterpreter implementation base directory\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.interpreter.localRepo\u003c/name\u003e\n  \u003cvalue\u003elocal-repo\u003c/value\u003e\n  \u003cdescription\u003eLocal repository for interpreter\u0027s additional dependency loading\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.interpreter.dep.mvnRepo\u003c/name\u003e\n  \u003cvalue\u003ehttp://repo1.maven.org/maven2/\u003c/value\u003e\n  \u003cdescription\u003eRemote principal repository for interpreter\u0027s additional dependency loading\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.dep.localrepo\u003c/name\u003e\n  \u003cvalue\u003elocal-repo\u003c/value\u003e\n  \u003cdescription\u003eLocal repository for dependency loader\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.helium.npm.registry\u003c/name\u003e\n  \u003cvalue\u003ehttp://registry.npmjs.org/\u003c/value\u003e\n  \u003cdescription\u003eRemote Npm registry for Helium dependency loader\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.interpreters\u003c/name\u003e\n  \u003cvalue\u003eorg.apache.zeppelin.spark.SparkInterpreter,org.apache.zeppelin.spark.PySparkInterpreter,org.apache.zeppelin.rinterpreter.RRepl,org.apache.zeppelin.rinterpreter.KnitR,org.apache.zeppelin.spark.SparkRInterpreter,org.apache.zeppelin.spark.SparkSqlInterpreter,org.apache.zeppelin.spark.DepInterpreter,org.apache.zeppelin.markdown.Markdown,org.apache.zeppelin.angular.AngularInterpreter,org.apache.zeppelin.shell.ShellInterpreter,org.apache.zeppelin.file.HDFSFileInterpreter,org.apache.zeppelin.flink.FlinkInterpreter,,org.apache.zeppelin.python.PythonInterpreter,org.apache.zeppelin.python.PythonInterpreterPandasSql,org.apache.zeppelin.python.PythonCondaInterpreter,org.apache.zeppelin.python.PythonDockerInterpreter,org.apache.zeppelin.lens.LensInterpreter,org.apache.zeppelin.ignite.IgniteInterpreter,org.apache.zeppelin.ignite.IgniteSqlInterpreter,org.apache.zeppelin.cassandra.CassandraInterpreter,org.apache.zeppelin.geode.GeodeOqlInterpreter,org.apache.zeppelin.jdbc.JDBCInterpreter,org.apache.zeppelin.kylin.KylinInterpreter,org.apache.zeppelin.elasticsearch.ElasticsearchInterpreter,org.apache.zeppelin.scalding.ScaldingInterpreter,org.apache.zeppelin.alluxio.AlluxioInterpreter,org.apache.zeppelin.hbase.HbaseInterpreter,org.apache.zeppelin.livy.LivySparkInterpreter,org.apache.zeppelin.livy.LivyPySparkInterpreter,org.apache.zeppelin.livy.LivyPySpark3Interpreter,org.apache.zeppelin.livy.LivySparkRInterpreter,org.apache.zeppelin.livy.LivySparkSQLInterpreter,org.apache.zeppelin.bigquery.BigQueryInterpreter,org.apache.zeppelin.beam.BeamInterpreter,org.apache.zeppelin.pig.PigInterpreter,org.apache.zeppelin.pig.PigQueryInterpreter,org.apache.zeppelin.scio.ScioInterpreter\u003c/value\u003e\n  \u003cdescription\u003eComma separated interpreter configurations. First interpreter become a default\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.interpreter.group.order\u003c/name\u003e\n  \u003cvalue\u003espark,md,angular,sh,livy,alluxio,file,psql,flink,python,ignite,lens,cassandra,geode,kylin,elasticsearch,scalding,jdbc,hbase,bigquery,beam\u003c/value\u003e\n  \u003cdescription\u003e\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.interpreter.connect.timeout\u003c/name\u003e\n  \u003cvalue\u003e30000\u003c/value\u003e\n  \u003cdescription\u003eInterpreter process connect timeout in msec.\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.interpreter.output.limit\u003c/name\u003e\n  \u003cvalue\u003e102400\u003c/value\u003e\n  \u003cdescription\u003eOutput message from interpreter exceeding the limit will be truncated\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl\u003c/name\u003e\n  \u003cvalue\u003efalse\u003c/value\u003e\n  \u003cdescription\u003eShould SSL be used by the servers?\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl.client.auth\u003c/name\u003e\n  \u003cvalue\u003efalse\u003c/value\u003e\n  \u003cdescription\u003eShould client authentication be used for SSL connections?\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl.keystore.path\u003c/name\u003e\n  \u003cvalue\u003ekeystore\u003c/value\u003e\n  \u003cdescription\u003ePath to keystore relative to Zeppelin configuration directory\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl.keystore.type\u003c/name\u003e\n  \u003cvalue\u003eJKS\u003c/value\u003e\n  \u003cdescription\u003eThe format of the given keystore (e.g. JKS or PKCS12)\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl.keystore.password\u003c/name\u003e\n  \u003cvalue\u003echange me\u003c/value\u003e\n  \u003cdescription\u003eKeystore password. Can be obfuscated by the Jetty Password tool\u003c/description\u003e\n\u003c/property\u003e\n\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl.key.manager.password\u003c/name\u003e\n  \u003cvalue\u003echange me\u003c/value\u003e\n  \u003cdescription\u003eKey Manager password. Defaults to keystore password. Can be obfuscated.\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl.truststore.path\u003c/name\u003e\n  \u003cvalue\u003etruststore\u003c/value\u003e\n  \u003cdescription\u003ePath to truststore relative to Zeppelin configuration directory. Defaults to the keystore path\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl.truststore.type\u003c/name\u003e\n  \u003cvalue\u003eJKS\u003c/value\u003e\n  \u003cdescription\u003eThe format of the given truststore (e.g. JKS or PKCS12). Defaults to the same type as the keystore type\u003c/description\u003e\n\u003c/property\u003e\n\n\u003c!--\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.ssl.truststore.password\u003c/name\u003e\n  \u003cvalue\u003echange me\u003c/value\u003e\n  \u003cdescription\u003eTruststore password. Can be obfuscated by the Jetty Password tool. Defaults to the keystore password\u003c/description\u003e\n\u003c/property\u003e\n--\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.server.allowed.origins\u003c/name\u003e\n  \u003cvalue\u003e*\u003c/value\u003e\n  \u003cdescription\u003eAllowed sources for REST and WebSocket requests (i.e. http://onehost:8080,http://otherhost.com). If you leave * you are vulnerable to https://issues.apache.org/jira/browse/ZEPPELIN-173\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.anonymous.allowed\u003c/name\u003e\n  \u003cvalue\u003etrue\u003c/value\u003e\n  \u003cdescription\u003eAnonymous user allowed by default\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.notebook.public\u003c/name\u003e\n  \u003cvalue\u003etrue\u003c/value\u003e\n  \u003cdescription\u003eMake notebook public by default when created, private otherwise\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.websocket.max.text.message.size\u003c/name\u003e\n  \u003cvalue\u003e1024000\u003c/value\u003e\n  \u003cdescription\u003eSize in characters of the maximum text message to be received by websocket. Defaults to 1024000\u003c/description\u003e\n\u003c/property\u003e\n\n\u003cproperty\u003e\n  \u003cname\u003ezeppelin.server.default.dir.allowed\u003c/name\u003e\n  \u003cvalue\u003efalse\u003c/value\u003e\n  \u003cdescription\u003eEnable directory listings on server.\u003c/description\u003e\n\u003c/property\u003e\n\n\u003c/configuration\u003e\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1685861233301_-1251171853",
+      "id": "20230604-064713_1619525211",
+      "dateCreated": "Jun 4, 2023 6:47:13 AM",
+      "dateStarted": "Jun 4, 2023 6:51:13 AM",
+      "dateFinished": "Jun 4, 2023 6:51:14 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%sh\nls -all /home/vagrant/zeppelin\ncat /home/vagrant/zeppelin/README*",
+      "user": "anonymous",
+      "dateUpdated": "Jun 4, 2023 6:55:49 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "sh",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "total 952\ndrwxrwxr-x 52 vagrant vagrant   4096 Jul 23  2017 .\ndrwxr-xr-x 11 vagrant vagrant   4096 Jul 26  2017 ..\n-rw-rw-r--  1 vagrant vagrant   2420 Mar 25  2017 .flattened-pom.xml\ndrwxrwxr-x  8 vagrant vagrant   4096 Mar 25  2017 .git\ndrwxrwxr-x  2 vagrant vagrant   4096 Mar 25  2017 .github\n-rw-rw-r--  1 vagrant vagrant   1515 Mar 25  2017 .gitignore\n-rw-rw-r--  1 vagrant vagrant   8919 Mar 25  2017 .travis.yml\n-rw-rw-r--  1 vagrant vagrant  15778 Mar 25  2017 LICENSE\n-rw-rw-r--  1 vagrant vagrant    253 Mar 25  2017 NOTICE\n-rw-rw-r--  1 vagrant vagrant   1324 Mar 25  2017 README.md\n-rw-rw-r--  1 vagrant vagrant    115 Mar 25  2017 Roadmap.md\n-rw-rw-r--  1 vagrant vagrant   2408 Mar 25  2017 SECURITY-README.md\n-rw-rw-r--  1 vagrant vagrant   2931 Mar 25  2017 STYLE.md\ndrwxrwxr-x  3 vagrant vagrant   4096 Mar 25  2017 _tools\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 alluxio\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 angular\ndrwxrwxr-x  3 vagrant vagrant   4096 Mar 25  2017 beam\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 bigquery\ndrwxrwxr-x  2 vagrant vagrant   4096 Mar 25  2017 bin\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 cassandra\ndrwxrwxr-x  2 vagrant vagrant   4096 Mar 25  2017 conf\n-rw-rw-r--  1 vagrant vagrant    736 Jun  3 04:10 derby.log\ndrwxrwxr-x  3 vagrant vagrant   4096 Mar 25  2017 dev\ndrwxrwxr-x 15 vagrant vagrant   4096 Mar 25  2017 docs\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 elasticsearch\ndrwxr-xr-x  2 root    root      4096 Mar 30  2017 figure\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 file\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 flink\ndrwxrwxr-x  3 vagrant vagrant   4096 Mar 25  2017 geode\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 hbase\ndrwxrwxr-x  3 vagrant vagrant   4096 Mar 25  2017 helium-dev\n-rw-r--r--  1 root    root     17109 Mar 30  2017 hs_err_pid2140.log\n-rw-r--r--  1 root    root     17158 Mar 30  2017 hs_err_pid2162.log\n-rw-r--r--  1 root    root     17109 Mar 30  2017 hs_err_pid2193.log\n-rw-r--r--  1 root    root     17109 Mar 30  2017 hs_err_pid2218.log\n-rw-r--r--  1 root    root     17109 Mar 30  2017 hs_err_pid2240.log\n-rw-r--r--  1 root    root     17109 Mar 30  2017 hs_err_pid2262.log\n-rw-r--r--  1 root    root     17109 Mar 30  2017 hs_err_pid2283.log\n-rw-r--r--  1 root    root     17109 Mar 30  2017 hs_err_pid2309.log\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 ignite\ndrwxrwxr-x 22 vagrant vagrant   4096 Mar 25  2017 interpreter\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 jdbc\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 kylin\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 lens\ndrwxrwxr-x  2 vagrant vagrant   4096 Mar 25  2017 licenses\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 livy\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 local-repo\ndrwxrwxr-x  2 vagrant vagrant  12288 Jun  4 06:41 logs\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 markdown\ndrwxrwxr-x  5 vagrant vagrant   4096 Jun  3 04:10 metastore_db\ndrwxrwxr-x 23 vagrant vagrant   4096 Jul  8  2017 notebook\n-rw-rw-r--  1 vagrant vagrant 485138 Jul 23  2017 notebook.tgz\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 pig\n-rw-rw-r--  1 vagrant vagrant  34878 Mar 25  2017 pom.xml\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 python\ndrwxrwxr-x  5 vagrant vagrant   4096 Mar 25  2017 r\ndrwxrwxr-x  2 vagrant vagrant   4096 Jun  4 06:41 run\ndrwxrwxr-x  3 vagrant vagrant   4096 Mar 25  2017 scalding\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 scio\ndrwxrwxr-x  5 vagrant vagrant   4096 Mar 25  2017 scripts\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 shell\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 spark\ndrwxrwxr-x  3 vagrant vagrant   4096 Mar 25  2017 spark-dependencies\ndrwxrwxr-x  3 vagrant vagrant   4096 Mar 25  2017 target\ndrwxrwxr-x  2 vagrant vagrant   4096 Mar 25  2017 testing\n-rw-rw-r--  1 vagrant vagrant   4073 Mar 25  2017 travis_check.py\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 zeppelin-display\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 zeppelin-distribution\ndrwxrwxr-x  8 vagrant vagrant   4096 Mar 25  2017 zeppelin-examples\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 zeppelin-interpreter\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 zeppelin-server\ndrwxrwxr-x 10 vagrant vagrant   4096 Mar 25  2017 zeppelin-web\ndrwxrwxr-x  4 vagrant vagrant   4096 Mar 25  2017 zeppelin-zengine\n# Apache Zeppelin\n\n**Documentation:** [User Guide](http://zeppelin.apache.org/docs/latest/index.html)\u003cbr/\u003e\n**Mailing Lists:** [User and Dev mailing list](http://zeppelin.apache.org/community.html)\u003cbr/\u003e\n**Continuous Integration:** [![Build Status](https://travis-ci.org/apache/zeppelin.svg?branch\u003dmaster)](https://travis-ci.org/apache/zeppelin) \u003cbr/\u003e\n**Contributing:** [Contribution Guide](https://zeppelin.apache.org/contribution/contributions.html)\u003cbr/\u003e\n**Issue Tracker:** [Jira](https://issues.apache.org/jira/browse/ZEPPELIN)\u003cbr/\u003e\n**License:** [Apache 2.0](https://github.com/apache/zeppelin/blob/master/LICENSE)\n\n\n**Zeppelin**, a web-based notebook that enables interactive data analytics. You can make beautiful data-driven, interactive and collaborative documents with SQL, Scala and more.\n\nCore feature:\n   * Web based notebook style editor.\n   * Built-in Apache Spark support\n\n\nTo know more about Zeppelin, visit our web site [http://zeppelin.apache.org](http://zeppelin.apache.org)\n\n\n## Getting Started\n\n### Install binary package\nPlease go to [install](http://zeppelin.apache.org/docs/snapshot/install/install.html) to install Apache Zeppelin from binary package.\n\n### Build from source\nPlease check [Build from source](http://zeppelin.apache.org/docs/snapshot/install/build.html) to build Zeppelin from source.\n\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1685861583832_2017407971",
+      "id": "20230604-065303_1477717142",
+      "dateCreated": "Jun 4, 2023 6:53:03 AM",
+      "dateStarted": "Jun 4, 2023 6:55:49 AM",
+      "dateFinished": "Jun 4, 2023 6:55:49 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Persistencia\n\nProblema al usar un RDD varias veces:\n\n-   Spark recomputa el RDD y sus dependencias cada vez que se ejecuta una acción\n-   Muy costoso (especialmente en problemas iterativos)\n\nSolución\n\n-   Conservar el RDD en memoria y/o disco\n-   Métodos `cache()` o `persist()`\n\n#### Niveles de persistencia (definidos en [`pyspark.StorageLevel`](http://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.StorageLevel))\n Nivel                | Espacio  | CPU     | Memoria/Disco   | Descripción\n :------------------: | :------: | :-----: | :-------------: | ------------------\n MEMORY_ONLY          |   Alto   |   Bajo  |     Memoria     | Guarda el RDD como un objeto Java no serializado en la JVM. Si el RDD no cabe en memoria, algunas particiones no se *cachearán* y serán recomputadas \"al vuelo\" cada vez que se necesiten. Nivel por defecto en Java y Scala.\n MEMORY_ONLY_SER      |   Bajo   |   Alto  |     Memoria     | Guarda el RDD como un objeto Java serializado (un *byte array* por partición). Nivel por defecto en Python, usando [`pickle`](http://docs.python.org/2/library/pickle.html).\n MEMORY_AND_DISK      |   Alto   |   Medio |     Ambos       | Guarda el RDD como un objeto Java no serializado en la JVM. Si el RDD no cabe en memoria, las particiones que no quepan se guardan en disco y se leen del mismo cada vez que se necesiten\n MEMORY_AND_DISK_SER  |   Bajo   |   Alto  |     Ambos       | Similar a MEMORY_AND_DISK pero usando objetos serializados.\n DISK_ONLY            |   Bajo   |   Alto  |     Disco       | Guarda las particiones del RDD solo en disco.\n OFF_HEAP             |   Bajo   |   Alto  |   Memoria       | Guarda el RDD serializado usando memoria *off-heap* (fuera del heap de la JVM) lo que puede reducir el overhead del recolector de basura\n   \n\n\n    \n#### Nivel de persistencia\n\n-   En Scala y Java, el nivel por defecto es MEMORY\\_ONLY\n\n-   En Python, los datos siempre se serializan (por defecto como objetos *pickled*)\n\n    -   Los niveles MEMORY_ONLY, MEMORY_AND_DISK son equivalentes a MEMORY_ONLY_SER, MEMORY_AND_DISK_SER\n    - Es posible especificar serialización [`marshal`](https://docs.python.org/2/library/marshal.html#module-marshal) al crear el SparkContext\n    \n```python\nsc \u003d SparkContext(master\u003d\"local\", appName\u003d\"Mi app\", serializer\u003dpyspark.MarshalSerializer())\n```\n    \n#### Recuperación de fallos\n\n-   Si falla un nodo con datos almacenados, el RDD se recomputa\n\n    -   Añadiendo `_2` al nivel de persistencia, se guardan 2 copias del RDD\n        \n#### Gestión de la cache\n\n-   Algoritmo LRU para gestionar la cache\n\n    -   Para niveles *solo memoria*, los RDDs viejos se eliminan y se recalculan\n    -   Para niveles *memoria y disco*, las particiones que no caben se escriben a disco\n",
+      "user": "anonymous",
+      "dateUpdated": "Jun 4, 2023 6:50:23 AM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003ePersistencia\u003c/h3\u003e\n\u003cp\u003eProblema al usar un RDD varias veces:\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eSpark recomputa el RDD y sus dependencias cada vez que se ejecuta una acción\u003c/li\u003e\n  \u003cli\u003eMuy costoso (especialmente en problemas iterativos)\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eSolución\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003eConservar el RDD en memoria y/o disco\u003c/li\u003e\n  \u003cli\u003eMétodos \u003ccode\u003ecache()\u003c/code\u003e o \u003ccode\u003epersist()\u003c/code\u003e\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eNiveles de persistencia (definidos en \u003ca href\u003d\"http://spark.apache.org/docs/latest/api/python/pyspark.html#pyspark.StorageLevel\"\u003e\u003ccode\u003epyspark.StorageLevel\u003c/code\u003e\u003c/a\u003e)\u003c/h4\u003e\n\u003ctable\u003e\n  \u003cthead\u003e\n    \u003ctr\u003e\n      \u003cth align\u003d\"center\"\u003eNivel \u003c/th\u003e\n      \u003cth align\u003d\"center\"\u003eEspacio \u003c/th\u003e\n      \u003cth align\u003d\"center\"\u003eCPU \u003c/th\u003e\n      \u003cth align\u003d\"center\"\u003eMemoria/Disco \u003c/th\u003e\n      \u003cth\u003eDescripción\u003c/th\u003e\n    \u003c/tr\u003e\n  \u003c/thead\u003e\n  \u003ctbody\u003e\n    \u003ctr\u003e\n      \u003ctd align\u003d\"center\"\u003eMEMORY_ONLY \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eAlto \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eBajo \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eMemoria \u003c/td\u003e\n      \u003ctd\u003eGuarda el RDD como un objeto Java no serializado en la JVM. Si el RDD no cabe en memoria, algunas particiones no se \u003cem\u003ecachearán\u003c/em\u003e y serán recomputadas \u0026ldquo;al vuelo\u0026rdquo; cada vez que se necesiten. Nivel por defecto en Java y Scala.\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd align\u003d\"center\"\u003eMEMORY_ONLY_SER \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eBajo \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eAlto \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eMemoria \u003c/td\u003e\n      \u003ctd\u003eGuarda el RDD como un objeto Java serializado (un \u003cem\u003ebyte array\u003c/em\u003e por partición). Nivel por defecto en Python, usando \u003ca href\u003d\"http://docs.python.org/2/library/pickle.html\"\u003e\u003ccode\u003epickle\u003c/code\u003e\u003c/a\u003e.\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd align\u003d\"center\"\u003eMEMORY_AND_DISK \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eAlto \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eMedio \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eAmbos \u003c/td\u003e\n      \u003ctd\u003eGuarda el RDD como un objeto Java no serializado en la JVM. Si el RDD no cabe en memoria, las particiones que no quepan se guardan en disco y se leen del mismo cada vez que se necesiten\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd align\u003d\"center\"\u003eMEMORY_AND_DISK_SER \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eBajo \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eAlto \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eAmbos \u003c/td\u003e\n      \u003ctd\u003eSimilar a MEMORY_AND_DISK pero usando objetos serializados.\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd align\u003d\"center\"\u003eDISK_ONLY \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eBajo \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eAlto \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eDisco \u003c/td\u003e\n      \u003ctd\u003eGuarda las particiones del RDD solo en disco.\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n      \u003ctd align\u003d\"center\"\u003eOFF_HEAP \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eBajo \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eAlto \u003c/td\u003e\n      \u003ctd align\u003d\"center\"\u003eMemoria \u003c/td\u003e\n      \u003ctd\u003eGuarda el RDD serializado usando memoria \u003cem\u003eoff-heap\u003c/em\u003e (fuera del heap de la JVM) lo que puede reducir el overhead del recolector de basura\u003c/td\u003e\n    \u003c/tr\u003e\n  \u003c/tbody\u003e\n\u003c/table\u003e\n\u003ch4\u003eNivel de persistencia\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEn Scala y Java, el nivel por defecto es MEMORY_ONLY\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eEn Python, los datos siempre se serializan (por defecto como objetos \u003cem\u003epickled\u003c/em\u003e)\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003eLos niveles MEMORY_ONLY, MEMORY_AND_DISK son equivalentes a MEMORY_ONLY_SER, MEMORY_AND_DISK_SER\u003c/li\u003e\n      \u003cli\u003eEs posible especificar serialización \u003ca href\u003d\"https://docs.python.org/2/library/marshal.html#module-marshal\"\u003e\u003ccode\u003emarshal\u003c/code\u003e\u003c/a\u003e al crear el SparkContext\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003cpre\u003e\u003ccode class\u003d\"python\"\u003esc \u003d SparkContext(master\u003d\u0026quot;local\u0026quot;, appName\u003d\u0026quot;Mi app\u0026quot;, serializer\u003dpyspark.MarshalSerializer())\n\u003c/code\u003e\u003c/pre\u003e\n\u003ch4\u003eRecuperación de fallos\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003eSi falla un nodo con datos almacenados, el RDD se recomputa\n    \u003cul\u003e\n      \u003cli\u003e\n      \u003cp\u003eAñadiendo \u003ccode\u003e_2\u003c/code\u003e al nivel de persistencia, se guardan 2 copias del RDD\u003c/p\u003e\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003ch4\u003eGestión de la cache\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003eAlgoritmo LRU para gestionar la cache\n    \u003cul\u003e\n      \u003cli\u003ePara niveles \u003cem\u003esolo memoria\u003c/em\u003e, los RDDs viejos se eliminan y se recalculan\u003c/li\u003e\n      \u003cli\u003ePara niveles \u003cem\u003ememoria y disco\u003c/em\u003e, las particiones que no caben se escriben a disco\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1499938785213_1606058819",
+      "id": "20170713-093945_1948393361",
+      "dateCreated": "Jul 13, 2017 9:39:45 AM",
+      "dateStarted": "Jul 14, 2017 4:34:22 PM",
+      "dateFinished": "Jul 14, 2017 4:34:22 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nrdd \u003d sc.parallelize(range(1000), 10)\n\nprint(rdd.is_cached)",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 4:58:26 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499938804418_1456022072",
+      "id": "20170713-094004_336437297",
+      "dateCreated": "Jul 13, 2017 9:40:04 AM",
+      "dateStarted": "Jul 14, 2017 4:58:27 PM",
+      "dateFinished": "Jul 14, 2017 4:58:27 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nrdd.persist(StorageLevel.MEMORY_AND_DISK_SER_2)\n\nprint(rdd.is_cached)\n\nprint(\"Nivel de persistencia de rdd: {0} \".format(rdd.getStorageLevel()))",
+      "user": "anonymous",
+      "dateUpdated": "Jul 28, 2017 3:13:21 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499938984034_2079744367",
+      "id": "20170713-094304_942363426",
+      "dateCreated": "Jul 13, 2017 9:43:04 AM",
+      "dateStarted": "Jul 14, 2017 4:59:06 PM",
+      "dateFinished": "Jul 14, 2017 4:59:06 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nrdd2 \u003d rdd.map(lambda x: x*x)\nprint(rdd2.is_cached)\n",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 5:05:21 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499939109948_246216644",
+      "id": "20170713-094509_1439062241",
+      "dateCreated": "Jul 13, 2017 9:45:09 AM",
+      "dateStarted": "Jul 14, 2017 5:05:21 PM",
+      "dateFinished": "Jul 14, 2017 5:05:21 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nrdd2.cache() # Nivel por defecto\nprint(rdd2.is_cached)\nprint(\"Nivel de persistencia de rdd2: {0}\".format(rdd2.getStorageLevel()))\n",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 5:05:37 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499939128620_1403972057",
+      "id": "20170713-094528_821156405",
+      "dateCreated": "Jul 13, 2017 9:45:28 AM",
+      "dateStarted": "Jul 14, 2017 5:05:37 PM",
+      "dateFinished": "Jul 14, 2017 5:05:37 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n\nrdd2.unpersist() # Sacamos rdd2 de la cache\nprint(rdd2.is_cached)",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 5:06:01 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499939145196_-1689962415",
+      "id": "20170713-094545_1040120150",
+      "dateCreated": "Jul 13, 2017 9:45:45 AM",
+      "dateStarted": "Jul 14, 2017 5:06:02 PM",
+      "dateFinished": "Jul 14, 2017 5:06:03 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n### Particionado\n\nEl número de particiones es función del tamaño del cluster o el número de bloques del fichero en HDFS\n\n-   Es posible ajustarlo al crear u operar sobre un RDD\n\n-   El paralelismo de RDDs que derivan de otros depende del de sus RDDs padre\n\n-   Dos funciones útiles:\n\n    -   `rdd.getNumPartitions()` devuelve el número de particiones del RDD\n    -   `rdd.glom()` devuelve un nuevo RDD juntando los elementos de cada partición en una lista\n",
+      "user": "anonymous",
+      "dateUpdated": "Jul 13, 2017 12:27:45 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch3\u003eParticionado\u003c/h3\u003e\n\u003cp\u003eEl número de particiones es función del tamaño del cluster o el número de bloques del fichero en HDFS\u003c/p\u003e\n\u003cul\u003e\n  \u003cli\u003e\n  \u003cp\u003eEs posible ajustarlo al crear u operar sobre un RDD\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n  \u003cp\u003eEl paralelismo de RDDs que derivan de otros depende del de sus RDDs padre\u003c/p\u003e\u003c/li\u003e\n  \u003cli\u003e\n    \u003cp\u003eDos funciones útiles:\u003c/p\u003e\n    \u003cul\u003e\n      \u003cli\u003e\u003ccode\u003erdd.getNumPartitions()\u003c/code\u003e devuelve el número de particiones del RDD\u003c/li\u003e\n      \u003cli\u003e\u003ccode\u003erdd.glom()\u003c/code\u003e devuelve un nuevo RDD juntando los elementos de cada partición en una lista\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1499939665660_-292435105",
+      "id": "20170713-095425_1079236707",
+      "dateCreated": "Jul 13, 2017 9:54:25 AM",
+      "dateStarted": "Jul 13, 2017 12:11:34 PM",
+      "dateFinished": "Jul 13, 2017 12:11:34 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\nrdd \u003d sc.parallelize([1, 2, 3, 4, 2, 4, 1], 4)\npairs \u003d rdd.map(lambda x: (x, x))\n\nprint(\"RDD pairs \u003d {0}\".format(\n        pairs.collect()))\nprint(\"Particionado de pairs: {0}\".format(\n        pairs.glom().collect()))\nprint(\"Número de particiones de pairs \u003d {0}\".format(\n        pairs.getNumPartitions()))",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 5:08:43 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499947894046_-1596229897",
+      "id": "20170713-121134_1597290566",
+      "dateCreated": "Jul 13, 2017 12:11:34 PM",
+      "dateStarted": "Jul 14, 2017 5:08:43 PM",
+      "dateFinished": "Jul 14, 2017 5:08:56 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n# Reducción manteniendo el número de particiones\nprint(\"Reducción con 4 particiones: {0}\".format(\n        pairs.reduceByKey(lambda x, y: x+y).glom().collect()))",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 5:10:54 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499948009519_367329275",
+      "id": "20170713-121329_1233955601",
+      "dateCreated": "Jul 13, 2017 12:13:29 PM",
+      "dateStarted": "Jul 14, 2017 5:10:54 PM",
+      "dateFinished": "Jul 14, 2017 5:10:56 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n# Reducción modificando el número de particiones\nprint(\"Reducción con 2 particiones: {0}\".format(\n       pairs.reduceByKey(lambda x, y: x+y, 2).glom().collect()))",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 5:11:43 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499948132210_1836639876",
+      "id": "20170713-121532_944908234",
+      "dateCreated": "Jul 13, 2017 12:15:32 PM",
+      "dateStarted": "Jul 14, 2017 5:11:43 PM",
+      "dateFinished": "Jul 14, 2017 5:11:44 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%md\n#### Funciones de reparticionado\n- `repartition(n)` devuelve un nuevo RDD que tiene exactamente `n` particiones\n- `coalesce(n)` más eficiente que `repartition`, minimiza el movimiento de datos\n    - Solo permite reducir el número de particiones\n- `partitionBy(n,[partitionFunc])` Particiona por clave, usando una función de particionado (por defecto, un hash de la clave)\n    - Solo para RDDs clave/valor\n    - Asegura que los pares con la misma clave vayan a la misma partición\n",
+      "user": "anonymous",
+      "dateUpdated": "Jul 13, 2017 12:28:41 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": false,
+        "results": {},
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "\u003cdiv class\u003d\"markdown-body\"\u003e\n\u003ch4\u003eFunciones de reparticionado\u003c/h4\u003e\n\u003cul\u003e\n  \u003cli\u003e\u003ccode\u003erepartition(n)\u003c/code\u003e devuelve un nuevo RDD que tiene exactamente \u003ccode\u003en\u003c/code\u003e particiones\u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003ecoalesce(n)\u003c/code\u003e más eficiente que \u003ccode\u003erepartition\u003c/code\u003e, minimiza el movimiento de datos\n    \u003cul\u003e\n      \u003cli\u003eSolo permite reducir el número de particiones\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n  \u003cli\u003e\u003ccode\u003epartitionBy(n,[partitionFunc])\u003c/code\u003e Particiona por clave, usando una función de particionado (por defecto, un hash de la clave)\n    \u003cul\u003e\n      \u003cli\u003eSolo para RDDs clave/valor\u003c/li\u003e\n      \u003cli\u003eAsegura que los pares con la misma clave vayan a la misma partición\u003c/li\u003e\n    \u003c/ul\u003e\n  \u003c/li\u003e\n\u003c/ul\u003e\n\u003c/div\u003e"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1499948185268_1654330194",
+      "id": "20170713-121625_1707697947",
+      "dateCreated": "Jul 13, 2017 12:16:25 PM",
+      "dateStarted": "Jul 13, 2017 12:28:39 PM",
+      "dateFinished": "Jul 13, 2017 12:28:39 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\npairs5 \u003d pairs.repartition(5)\nprint(\"pairs5 con {0} particiones: {1}\".format(\n        pairs5.getNumPartitions(),\n        pairs5.glom().collect()))",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 5:14:24 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499948230472_1561498439",
+      "id": "20170713-121710_1067916706",
+      "dateCreated": "Jul 13, 2017 12:17:10 PM",
+      "dateStarted": "Jul 14, 2017 5:14:24 PM",
+      "dateFinished": "Jul 14, 2017 5:14:25 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\npairs2 \u003d pairs5.coalesce(2)\nprint(\"pairs2 con {0} particiones: {1}\".format(\n        pairs2.getNumPartitions(),\n        pairs2.glom().collect()))\n",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 5:15:28 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499948322871_1119946264",
+      "id": "20170713-121842_1672703622",
+      "dateCreated": "Jul 13, 2017 12:18:42 PM",
+      "dateStarted": "Jul 14, 2017 5:15:28 PM",
+      "dateFinished": "Jul 14, 2017 5:15:29 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\npairs_clave \u003d pairs2.partitionBy(3)\nprint(\"Particionado por clave ({0} particiones): {1}\".format(\n        pairs_clave.getNumPartitions(),\n        pairs_clave.glom().collect())) ",
+      "user": "anonymous",
+      "dateUpdated": "Jul 14, 2017 6:26:52 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python"
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499948487372_262153787",
+      "id": "20170713-122127_970392255",
+      "dateCreated": "Jul 13, 2017 12:21:27 PM",
+      "dateStarted": "Jul 14, 2017 5:16:03 PM",
+      "dateFinished": "Jul 14, 2017 5:16:04 PM",
+      "status": "FINISHED",
+      "errorMessage": "",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "%pyspark\n",
+      "user": "anonymous",
+      "dateUpdated": "Jul 13, 2017 12:22:11 PM",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1499948531711_1059615663",
+      "id": "20170713-122211_1641881272",
+      "dateCreated": "Jul 13, 2017 12:22:11 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "Curso Spark/06 - Persistencia y particionado",
+  "id": "2CFHDDRRB",
+  "angularObjects": {
+    "2CCY33GTB:shared_process": [],
+    "2CCQCYKJM:shared_process": [],
+    "2CD8VB8N5:shared_process": [],
+    "2CEZ3N4ZK:shared_process": [],
+    "2CCN184W1:shared_process": [],
+    "2CCTDCCB9:shared_process": [],
+    "2CBRCMJB7:shared_process": [],
+    "2CDTHYD1N:shared_process": [],
+    "2CD85MNWZ:shared_process": [],
+    "2CEM88R8V:shared_process": [],
+    "2CBSSQJJR:shared_process": [],
+    "2CBG9JDC9:shared_process": [],
+    "2CBJUH5Z5:shared_process": [],
+    "2CET3TKHW:shared_process": [],
+    "2CF1VUR2D:shared_process": [],
+    "2CCZDD8PX:shared_process": [],
+    "2CESEPECG:shared_process": [],
+    "2CCZGPF6E:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
