@@ -30,11 +30,6 @@ def check_file_content(file_name):
     except FileNotFoundError:
         return False
 
-
-# Example usage
-file_name = "file.txt"
-check_file_content(file_name)
-
 # Recorrer los nombres de las carpetas
 for folder in folders:
     file = folder + "/" + 'note.json'
